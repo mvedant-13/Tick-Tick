@@ -30,6 +30,10 @@ export default function StopWatch() {
 
   return (
     <div className="stopwatch">
+      <nav>
+        <a href="/">Dashboard</a>
+      </nav>
+
       <h1>Stop Watch</h1>
       <p>{time}</p>
 
